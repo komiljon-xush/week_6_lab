@@ -49,9 +49,9 @@ cmake_ninja_workdir = C$:/Users/user/CLionProjects/c++book/cmake-build-debug/
 
 build cmake_object_order_depends_target_c__book: phony || .
 
-build CMakeFiles/c__book.dir/main.cpp.obj: CXX_COMPILER__c__book_unscanned_Debug C$:/Users/user/CLionProjects/c++book/main.cpp || cmake_object_order_depends_target_c__book
+build CMakeFiles/c__book.dir/problem1.cpp.obj: CXX_COMPILER__c__book_unscanned_Debug C$:/Users/user/CLionProjects/c++book/problem1.cpp || cmake_object_order_depends_target_c__book
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\c__book.dir\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\c__book.dir\problem1.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\c__book.dir
   OBJECT_FILE_DIR = CMakeFiles\c__book.dir
@@ -140,6 +140,48 @@ build CMakeFiles/c__book.dir/problem13.cpp.obj: CXX_COMPILER__c__book_unscanned_
   OBJECT_DIR = CMakeFiles\c__book.dir
   OBJECT_FILE_DIR = CMakeFiles\c__book.dir
 
+build CMakeFiles/c__book.dir/problem14.cpp.obj: CXX_COMPILER__c__book_unscanned_Debug C$:/Users/user/CLionProjects/c++book/problem14.cpp || cmake_object_order_depends_target_c__book
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\c__book.dir\problem14.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c__book.dir
+  OBJECT_FILE_DIR = CMakeFiles\c__book.dir
+
+build CMakeFiles/c__book.dir/problem15.cpp.obj: CXX_COMPILER__c__book_unscanned_Debug C$:/Users/user/CLionProjects/c++book/cmake-build-debug/problem15.cpp || cmake_object_order_depends_target_c__book
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\c__book.dir\problem15.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c__book.dir
+  OBJECT_FILE_DIR = CMakeFiles\c__book.dir
+
+build CMakeFiles/c__book.dir/problem16.cpp.obj: CXX_COMPILER__c__book_unscanned_Debug C$:/Users/user/CLionProjects/c++book/problem16.cpp || cmake_object_order_depends_target_c__book
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\c__book.dir\problem16.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c__book.dir
+  OBJECT_FILE_DIR = CMakeFiles\c__book.dir
+
+build CMakeFiles/c__book.dir/problem17.cpp.obj: CXX_COMPILER__c__book_unscanned_Debug C$:/Users/user/CLionProjects/c++book/problem17.cpp || cmake_object_order_depends_target_c__book
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\c__book.dir\problem17.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c__book.dir
+  OBJECT_FILE_DIR = CMakeFiles\c__book.dir
+
+build CMakeFiles/c__book.dir/problem18.cpp.obj: CXX_COMPILER__c__book_unscanned_Debug C$:/Users/user/CLionProjects/c++book/problem18.cpp || cmake_object_order_depends_target_c__book
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\c__book.dir\problem18.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c__book.dir
+  OBJECT_FILE_DIR = CMakeFiles\c__book.dir
+
+build CMakeFiles/c__book.dir/problem19.cpp.obj: CXX_COMPILER__c__book_unscanned_Debug C$:/Users/user/CLionProjects/c++book/problem19.cpp || cmake_object_order_depends_target_c__book
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\c__book.dir\problem19.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\c__book.dir
+  OBJECT_FILE_DIR = CMakeFiles\c__book.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c__book
@@ -148,7 +190,7 @@ build CMakeFiles/c__book.dir/problem13.cpp.obj: CXX_COMPILER__c__book_unscanned_
 #############################################
 # Link the executable c__book.exe
 
-build c__book.exe: CXX_EXECUTABLE_LINKER__c__book_Debug CMakeFiles/c__book.dir/main.cpp.obj CMakeFiles/c__book.dir/problem2.cpp.obj CMakeFiles/c__book.dir/problem3.cpp.obj CMakeFiles/c__book.dir/problem4.cpp.obj CMakeFiles/c__book.dir/problem5.cpp.obj CMakeFiles/c__book.dir/problem6.cpp.obj CMakeFiles/c__book.dir/problem7.cpp.obj CMakeFiles/c__book.dir/problem8.cpp.obj CMakeFiles/c__book.dir/problem9_.cpp.obj CMakeFiles/c__book.dir/problem10.cpp.obj CMakeFiles/c__book.dir/problem11.cpp.obj CMakeFiles/c__book.dir/problem12.cpp.obj CMakeFiles/c__book.dir/problem13.cpp.obj
+build c__book.exe: CXX_EXECUTABLE_LINKER__c__book_Debug CMakeFiles/c__book.dir/problem1.cpp.obj CMakeFiles/c__book.dir/problem2.cpp.obj CMakeFiles/c__book.dir/problem3.cpp.obj CMakeFiles/c__book.dir/problem4.cpp.obj CMakeFiles/c__book.dir/problem5.cpp.obj CMakeFiles/c__book.dir/problem6.cpp.obj CMakeFiles/c__book.dir/problem7.cpp.obj CMakeFiles/c__book.dir/problem8.cpp.obj CMakeFiles/c__book.dir/problem9_.cpp.obj CMakeFiles/c__book.dir/problem10.cpp.obj CMakeFiles/c__book.dir/problem11.cpp.obj CMakeFiles/c__book.dir/problem12.cpp.obj CMakeFiles/c__book.dir/problem13.cpp.obj CMakeFiles/c__book.dir/problem14.cpp.obj CMakeFiles/c__book.dir/problem15.cpp.obj CMakeFiles/c__book.dir/problem16.cpp.obj CMakeFiles/c__book.dir/problem17.cpp.obj CMakeFiles/c__book.dir/problem18.cpp.obj CMakeFiles/c__book.dir/problem19.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
